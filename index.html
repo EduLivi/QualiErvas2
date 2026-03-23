@@ -305,15 +305,14 @@
           <span class="tag">Produtos e serviços</span>
           <h2>O que você encontra na loja</h2>
           <p>
-            Organização clara, visual moderno e espaço pronto para incluir seus
-            produtos reais, preços e fotos próprias.
+            Os cards abaixo já estão configurados com imagens locais. Você pode manter os nomes dos arquivos e trocar pelas fotos reais quando quiser.
           </p>
         </div>
 
         <div class="product-grid">
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-1">
-              <span>🌿</span>
+            <div class="product-thumb">
+              <img src="images/produto-ervas.svg" alt="Ervas medicinais da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Ervas medicinais</h3>
@@ -326,8 +325,8 @@
           </article>
 
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-2">
-              <span>🍵</span>
+            <div class="product-thumb">
+              <img src="images/produto-chas.svg" alt="Chás naturais da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Chás naturais</h3>
@@ -340,8 +339,8 @@
           </article>
 
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-3">
-              <span>💊</span>
+            <div class="product-thumb">
+              <img src="images/produto-suplementos.svg" alt="Suplementos da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Suplementos</h3>
@@ -354,8 +353,8 @@
           </article>
 
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-4">
-              <span>🫘</span>
+            <div class="product-thumb">
+              <img src="images/produto-graos.svg" alt="Grãos e sementes da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Grãos e sementes</h3>
@@ -368,8 +367,8 @@
           </article>
 
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-5">
-              <span>🧂</span>
+            <div class="product-thumb">
+              <img src="images/produto-temperos.svg" alt="Temperos naturais da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Temperos naturais</h3>
@@ -382,8 +381,8 @@
           </article>
 
           <article class="product-card reveal">
-            <div class="product-thumb product-thumb-6">
-              <span>🛍️</span>
+            <div class="product-thumb">
+              <img src="images/produto-entrega.svg" alt="Atendimento e entrega da Qualiervas" loading="lazy" />
             </div>
             <div class="product-body">
               <h3>Retirada e entrega</h3>
@@ -405,16 +404,23 @@
           <span class="tag">Galeria</span>
           <h2>Espaço pronto para fotos reais da loja</h2>
           <p>
-            Você pode substituir os blocos abaixo por imagens internas, fachada,
-            produtos, atendimento e ambiente da Qualiervas.
+            As imagens abaixo já estão conectadas no site. Depois, basta substituir os arquivos na pasta <strong>images</strong> pelas fotos reais da loja.
           </p>
         </div>
 
         <div class="gallery-grid">
-          <div class="gallery-item reveal"><span>Fachada</span></div>
-          <div class="gallery-item reveal"><span>Interior</span></div>
-          <div class="gallery-item reveal"><span>Produtos</span></div>
-          <div class="gallery-item reveal"><span>Atendimento</span></div>
+          <figure class="gallery-item reveal">
+            <img src="images/loja-fachada.svg" alt="Fachada da Qualiervas" loading="lazy" />
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/loja-interior.svg" alt="Interior da loja Qualiervas" loading="lazy" />
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/loja-produtos.svg" alt="Produtos da Qualiervas" loading="lazy" />
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="images/loja-atendimento.svg" alt="Atendimento da Qualiervas" loading="lazy" />
+          </figure>
         </div>
       </div>
     </section>
@@ -590,8 +596,7 @@
           <span class="tag">Localização</span>
           <h2>Encontre a loja com facilidade</h2>
           <p>
-            O mapa abaixo usa a API do Google Maps para mostrar a localização da
-            Qualiervas Produtos Naturais.
+            O mapa abaixo pode funcionar com API do Google Maps, mas o site já abre normalmente mesmo sem a chave, exibindo um botão direto para o Google Maps.
           </p>
         </div>
 
@@ -665,9 +670,9 @@
       <div>
         <h4>Redes sociais</h4>
         <ul>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Google Maps</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Qualiervas+Produtos+Naturais&query_place_id=ChIJEV2hH8RcMpIRqeoNkN52cn4" target="_blank" rel="noopener noreferrer">Google Maps</a></li>
         </ul>
       </div>
     </div>
@@ -680,11 +685,11 @@
   <script src="script.js"></script>
 
   <!-- Google Maps API -->
-  <!-- Substitua AIzaSyCIRZx9ff19UNf72SfEC6CuEUmEq_Lyxao pela sua chave real -->
+  <!-- Substitua SUA_CHAVE_GOOGLE_MAPS_API pela sua chave real -->
   <script
     async
     defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIRZx9ff19UNf72SfEC6CuEUmEq_Lyxao&callback=initMap"
+    src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_GOOGLE_MAPS_API&callback=initMap"
     onerror="renderMapFallback()"
   ></script>
 </body>
